@@ -1,0 +1,64 @@
+
+.container
+{
+  width: 970px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#toplogo
+{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+h2
+{
+font: 12px;
+line-height: 17px;
+font-family: 'times new roman', serif;
+color: #999999;
+padding-bottom: 10px;
+
+}
+
+h3
+{
+font: 1px;
+line-height: 2px;
+font-family: times new roman, serif;
+color: #6699cc;
+padding-bottom: 0px;
+
+}
+
+p
+{
+font: 12px;
+line-height: 17px;
+font-family: times new roman, serif;
+color: #999999;
+padding-top: 5px;
+
+}
+
+#logo
+{
+  display: inline-block;
+  width: 230px;
+  border: 4px solid #cccccc;
+
+
+}
+
+footer
+{
+font: 12px;
+line-height: 17px;
+font-family: times new roman, serif;
+color: #999999;
+padding-top: 5px;
+padding-left: 20px;
+}

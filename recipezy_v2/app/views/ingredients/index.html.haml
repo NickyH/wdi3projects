@@ -1,0 +1,22 @@
+.panel.ingredientsformpanel
+  .row
+    .ingredientstitle
+      = 'Add Ingredient'
+    .ingredientstitle
+      = 'Ingredient Lst'
+  .row
+    .small-3.columns
+      = form_for @newingredient, :remote => true do |f|
+        = f.label :name
+        = f.text_field :name
+        = f.label :units
+        = f.text_field :units
+        = f.label :std_unit_quantity
+        = f.text_field :std_unit_quantity
+        = f.label :cost_per_unit
+        = f.text_field :cost_per_unit
+        = f.submit nil, :class => 'button radius tiny'
+    .small-2.columns
+    .small-7.columns
+      #ingredients_list
+        = render(:partial => 'ingredients')

@@ -1,0 +1,33 @@
+.row
+  .4-large.columns
+    / =image_tag(@recipe.image, :class => 'showrecipeimg')
+
+    = select_tag 'select_ingredient', options_for_select(@ingredients.map{ |i| [i, i] })
+= button_tag 'Add Ingredient', :id => 'add_ingredient', :class => 'button'
+.row
+  #ingredient_form
+    = form_tag :remote => true do
+      = label_tag :units
+      = text_field_tag :units
+      = label_tag :recipe_note
+      = text_field_tag :recipe_note
+      = submit_tag nil, :class => 'button radius tiny', :id => 'submit_item_form'
+
+
+
+.panel.wholerecipe
+  =link_to("<< Back to all recipes", recipes_path, :remote => true)
+  %h4= "#{@recipe.title}"
+  .keyingredient-text= "#{@recipe.key_ingredient}"
+  .minutes-text= "#{@recipe.preptime}"
+  .minutes-text= "#{@recipe.cooktime}"
+  .serves-text= "#{@recipe.servings}"
+  = show_recipe_instructions(@recipe.instructions, @tutorials)
+  =link_to 'Delete', @recipe, :method => :delete
+  =link_to 'Edit', edit_recipe_path(@recipe), :method => :get
+
+#ingredient_list
+  - @items.each do |item|
+    = item
+  = @recipe.cost_per_serve
+

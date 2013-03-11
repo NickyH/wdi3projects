@@ -1,0 +1,36 @@
+<div id='home1'>MyMemeTube</div>
+<div id='home2'>
+    <% @nav_rows.each do |row| %>
+      <a href='/clips/<%= row['genre'] %>'> <%= row['genre'].upcase %></a>
+      <i class="icon-filter"></i>
+    <% end %>
+  </div>
+
+<% @rows.each do |row| %>
+
+<section id = 'overall' class='span6'>
+<article id='video-col'>
+  <iframe width="280" height="210" src="http://www.youtube.com/embed/<%= row['url'] %>"></iframe>
+
+</article>
+<article id='video-text'>
+    <span id = 'title'><h5><%= row['title'] %></h5></span>
+    <div id='break'>--------------------------------</div>
+      <h5><%= row['description'] %></h5>
+      <span id='genre-text'><i class="icon-filter"></i><%= row['genre'] %></span>
+       <h6><a method='post' href = '/clips/<%= row['id'] %>/edit'>Edit | </a>
+    <a method='post' href = '/clips/<%= row['id'] %>/delete'>Delete</a></h6>
+  </article>
+</section>
+
+<% end %>
+
+
+  </div>
+    </form>
+<form action='<%= @row.nil? ? "/create" : "/clips/#{@row['id']}" %>' method='post'>
+</div>
+
+
+
+

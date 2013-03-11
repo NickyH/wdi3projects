@@ -1,0 +1,37 @@
+<div id='home1'>Add a video</div>
+<div class="row">
+    <form action='<%= @row.nil? ? "/create" : "/clips/#{@row['id']}" %>' method='post'>
+
+      </div>
+<div class="row">
+      <div class="span8"><div class="span3">Title</div>
+        <input value='<%= @row['title'] if @row %>' type='text' name='title' autofocus placeholder="Title">
+</div>
+<div class="row">
+      <div class="span1"></div>
+      </div>
+      <div class="span8"><div class="span3">Description</div>
+        <textarea rows="3" value='<%= @row['description'] if @row %>' type='text' name='description' placeholder="Description"></textarea>
+</div>
+<div class="row">
+       <div class="span1"></div>
+      </div>
+      <div class="span8"><div class="span3">Genre</div>
+        <input value='<%= @row['genre'] if @row %>' type='text' name='genre' placeholder="Genre">
+</div>
+<div class="row">
+      <div class="span1"></div>
+      </div>
+      <div class="span8"><div class="span3">URL</div>
+        <input value='<%= @row['url'] if @row %>' type='text' name='url' placeholder="URL">
+        <button id='submit'><%= @row.nil? ? 'Submit' : 'Done' %></button>
+</div>
+<div class="row">
+      <div class="span1"></div>
+    </div>
+    </form>
+
+
+
+
+

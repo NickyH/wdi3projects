@@ -1,0 +1,636 @@
+
+@import url(http://fonts.googleapis.com/css?family=Molle:400italic);
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Archivo+Black);
+
+
+.hide
+{
+  display: hidden;
+}
+
+.float
+{
+  float: left;
+  margin-right: 30px;
+}
+
+input.button.radius
+{
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+  font-size: 13px;
+  vertical-align: middle;
+
+}
+
+.recipezybtn
+{
+  height: 33px;
+  background-color: #FF7729;
+  border-radius: 10px;
+}
+
+.recipezybtn_recipenav
+{
+  height: 40px;
+  background-color: #FF7729;
+  border-radius: 10px;
+  width: 175px;
+  display: inline-block;
+  float: left;
+  margin: 10px 20px 10px 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #FF3331;
+}
+
+.recipezybtn_recipeadd
+{
+  height: 40px;
+  background-color: #47D9BF;
+  border-radius: 10px;
+  width: 175px;
+  display: inline-block;
+  float: left;
+  margin: 10px 20px 10px 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+
+#selectbytext
+{
+  display: block;
+  height: 25px;
+  float: left;
+  width: 100%;
+  font-size: 23px;
+  margin-left: 30px;
+  font-family: Ubuntu, sans-serif;
+}
+
+.recipezybtn_selectby
+{
+  height: 30px;
+  background-color: #47D9BF;
+  border-radius: 10px;
+  width: 175px;
+  display: inline-block;
+  float: left;
+  margin: 15px 20px 10px 10px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.cancel_text a
+{
+  color: #FF2151;
+  font-weight: bolder;
+  float: left;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#loginform
+{
+  clear: both;
+}
+
+.top-bar
+{
+  background-color: #47D9BF;
+  height: 120px;
+}
+
+div.recipezy
+{
+  display: inline-block;
+  width: 200px;
+  margin: 10px 50px auto 50px;
+}
+
+h5.homepagetext
+{
+  display: inline-block;
+}
+
+.recipezy img
+{
+  opacity: 05;
+}
+
+nav.top-bar a
+{
+  color: red;
+}
+
+a
+{
+  color: #198CBF;
+}
+
+h4
+{
+  color: #26BF83;
+}
+
+h4.formtitle
+{
+  margin-left: 50px;
+}
+
+.top-bar ul li
+{
+  line-height:50px;
+  font-size: 30px;
+}
+
+.title-area
+{
+  height: 50px;
+  display: block;
+  width: 100%;
+}
+
+.top-bar.name
+{
+  color: #F2D03B;
+  width: 300px;
+  font-size: 30px;
+}
+
+li.toplinks
+{
+  font-size: 30px;
+}
+
+li.name a
+{
+  color: #FF4C45;
+}
+
+.top-bar ul > li a:not(.button)
+{
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  float: left;
+  color: white;
+}
+
+.top-bar ul li.name
+{
+  font-size: 30px;
+  color: red;
+}
+
+.cheesecake
+{
+  margin: 0 0 0 20px;
+  padding: 0 0 0 0;
+}
+
+.cheesecake a
+{
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  color: #F2D03B;
+}
+
+.love
+{
+  height: 50px;
+  margin: 0 0 0 20px;
+  padding: 0 0 0 0;
+
+}
+
+.love a
+{
+  display: inline-block;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 30px;
+  height: 30px;
+}
+
+h1.form-new
+{
+  margin-left: 50px;
+}
+
+.form-input
+{
+  margin-left: 50px;
+  list-style: none;
+  width: 100%;
+}
+
+div.form-input
+{
+  margin-left: 50px;
+  display: inline-block;
+  width: 50%;
+}
+
+div.form-input.dropdown
+{
+  margin-left: 50px;
+  display: inline-block;
+  width: 300px;
+}
+
+div.form-input.short
+{
+  margin-left: 50px;
+  display: inline-block;
+  width: 100px;
+}
+
+label
+{
+  display: inline-block;
+  width: 100%;
+  line-height: 50px;
+}
+
+div.panel.small
+{
+  float: left;
+  width: 600px;
+  height: 300px;
+}
+
+div.panel.medium
+{
+  float: left;
+  width: 600px;
+  height: 500px;
+}
+
+div.panel.large
+{
+  float: left;
+  width: 600px;
+  height: 900px;
+}
+
+.recipenavpanel
+{
+  width: 100%;
+  height: 200px;
+}
+
+div.panel.glossary
+{
+  float: left;
+  width: 600px;
+  height: 100px;
+}
+
+ul.left
+{
+  margin-left: 50px;
+}
+
+.prep-time
+{
+  margin-right: 10px;
+  background-color: #7F707D;
+  height: 50px;
+  width: 60px;
+  display: inline-block;
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.prep-time-text
+{
+  margin-right: 10px;
+  height: 30px;
+  width: 50px;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.panelingredients
+{
+  height: 20px;
+  float: none;
+  margin-left: 10px;
+}
+
+div.panelingredients a
+{
+  line-height: 20px;
+  font-size: 15px;
+  color: #203C40;
+}
+
+.ingredientscolumn
+{
+  background-color: #fffffc;
+  float: left;
+  min-width: 300px;
+}
+
+.ingredientscolumn h4
+{
+ display: inline-block;
+ margin-right: 30px;
+}
+
+div.recipestitle
+{
+ width: 600px;
+}
+
+.recipestitle h4
+{
+ font-family: 'Archivo Black', sans-serif;
+ display: inline-block;
+ margin-right: 30px;
+ font-size: 40px;
+}
+
+.keyingredient-text
+{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #7A01FF;
+  height: 22px;
+  width: 95%;
+  display: inline-block;
+  font-weight: bolder;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  line-height: 22px;
+  border-radius: 10px;
+}
+
+.allingredient-text
+{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 22px;
+  width: 95%;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  line-height: 22px;
+}
+
+.minutes-text
+{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2A4039;
+}
+
+.ingredientslist
+{
+  float: left;
+}
+
+.row img
+{
+  display: inline-block;
+  float: right;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.panel img
+{
+  width: 280px;
+}
+
+.panelrecipe
+{
+  width: 450px;
+  height: 300px;
+  margin-left: 15px;
+  margin-top: 15px;
+  float: left;
+}
+
+.singlerecipeimg
+{
+  width: 180px;
+  float: right;
+}
+
+.singlerecipeheader
+{
+  display: block;
+  float: right;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.showrecipeimg
+{
+  width: 300px;
+  float: right;
+  margin-top: 50px;
+}
+
+.excerpt
+{
+  width: 230px;
+  display: inline-block;
+}
+
+.excerpt a
+{
+ float: right;
+}
+
+h5.h5link
+{
+  font-size: 15px;
+  color: #2EFFA7;
+  float: right;
+  line-height: 30px;
+}
+
+.panel.wholerecipe
+{
+  height: auto;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.formbutton
+{
+  margin-left: 50px;
+}
+
+.formbutton input
+{
+  height: 30px;
+  width: 130px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #26BF83;
+  color: white  ;
+}
+
+select#item_ingredient_id
+{
+  width: 150px;
+  height: 30px;
+  float: left;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+input#item_quantity
+{
+  margin-left: 50px;
+  width: 150px;
+}
+
+div.video
+{
+  border-radius: 10px;
+  float: right;
+}
+
+div.glossarydescription
+{
+  width: 250px;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.homepageimagesmall
+{
+  float: right;
+}
+
+h5.subheader.narrow
+{
+  display: inline-block;
+  width: 500px;
+  float: left;
+  margin-left: -300px;
+}
+
+#navtab
+{
+  background-color: #47D9BF;
+}
+
+#navtablog
+{
+  background-color: #47D9BF;
+  font-size: 20px;
+  color: black;
+  float: right;
+}
+
+#navtab:hover
+{
+  color: #FFEBCA;
+}
+
+#navtablog:hover
+{
+  color: #FFEBCA;
+}
+
+.panelauto
+{
+  height: 600px;
+
+}
+
+textarea
+{
+  height: 150px;
+}
+
+.top-bar-section ul
+{
+  background-color: #47D9BF;
+}
+
+.top-bar-section>ul>.divider
+{
+  border-right: 1px solid #47D9BF;
+  border-left: 1px xolid #47D9BF;
+  border-right-color: #47D9BF;
+  border-left-color: #47D9BF;
+}
+
+input
+{
+  background-color: grey;
+}
+
+.selectfrom
+{
+  width: 200px;
+  margin: 20px 20px 20px 20px;
+  float: left;
+  display: inline-block;
+  height: 40px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 17px;
+}
+
+select
+{
+  height: 28px;
+}
+
+.ingredientsformpanel
+{
+  height: auto;
+}
+
+#ingredients_list
+{
+  margin-left: 50px;
+  font-size: 17px;
+}
+
+.ingredientstitle
+{
+  font-size: 30px;
+  display: inline-block;
+  float: left;
+  margin-right: 230px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}

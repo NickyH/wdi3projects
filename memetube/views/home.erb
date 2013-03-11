@@ -1,0 +1,11 @@
+<span class='logo-vid'><div id='home'>MyMemeTube</div>
+<img id='logo-img' src='http://top10onlinestorage.net/images/video_storage.jpg'></span>
+<div id='home2'>Choose from your categories below or<a href = ''> view all</a></div>
+
+    <p id='genres'>
+    <% @nav_rows.each do |row| %>
+      <a href='/clips/<%= row['genre'] %>'><%= row['genre'] %> |  </a>
+    <% end %>
+  </p>
+</div>
+
